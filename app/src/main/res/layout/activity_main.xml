@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to KUET Bus App"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:id="@+id/morning"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Morning"
+        android:padding="15dp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/noon"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Noon"
+        android:padding="15dp"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/afternoon"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Afternoon"
+        android:padding="15dp"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/night"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Night"
+        android:padding="15dp"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/saturday"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Saturday"
+        android:padding="15dp"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
